@@ -5,14 +5,8 @@ A micro check package. -- inspired from [is.js](https://github.com/arasatasaygin
 
 ## Installation
 
-Move into is_py.
-    - checks/
-        - checks/
-            - __init__.py
-            - is_.py
-        - README.md
-        - setup.py
-Execute
+
+Execute after moving into `checks/`
 ```
 pip install --editable .
 ```
