@@ -1,4 +1,4 @@
-# IS_PY
+# CHECKS
 
 A micro check package. -- inspired from [is.js](https://github.com/arasatasaygin/is.js)
 
@@ -6,8 +6,8 @@ A micro check package. -- inspired from [is.js](https://github.com/arasatasaygin
 ## Installation
 
 Move into is_py.
-    - si_py/
-        - is_py/
+    - checks/
+        - checks/
             - __init__.py
             - is_.py
         - README.md
@@ -22,7 +22,8 @@ pip install --editable .
 ### is_list
 
 ```
->>> is_py.is_list([])
+>>> import checks
+>>> checks.is_list([])
 True
 
 >>> is_py.is_list([1,2,3])
